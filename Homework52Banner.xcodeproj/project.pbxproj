@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D6D47A81278D442700AF3154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D47A80278D442700AF3154 /* AppDelegate.swift */; };
 		D6D47A83278D442700AF3154 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D47A82278D442700AF3154 /* SceneDelegate.swift */; };
-		D6D47A85278D442700AF3154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D47A84278D442700AF3154 /* ViewController.swift */; };
 		D6D47A88278D442700AF3154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D47A86278D442700AF3154 /* Main.storyboard */; };
 		D6D47A8A278D442E00AF3154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D47A89278D442E00AF3154 /* Assets.xcassets */; };
 		D6D47A8D278D442E00AF3154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D47A8B278D442E00AF3154 /* LaunchScreen.storyboard */; };
+		D6D47A95278D45A200AF3154 /* BannerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D47A94278D45A200AF3154 /* BannerCollectionViewController.swift */; };
+		D6D47A97278D45E300AF3154 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D47A96278D45E300AF3154 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6D47A7D278D442700AF3154 /* Homework52Banner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework52Banner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D47A80278D442700AF3154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D47A82278D442700AF3154 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6D47A84278D442700AF3154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6D47A87278D442700AF3154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6D47A89278D442E00AF3154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D47A8C278D442E00AF3154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D47A8E278D442E00AF3154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D47A94278D45A200AF3154 /* BannerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewController.swift; sourceTree = "<group>"; };
+		D6D47A96278D45E300AF3154 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				D6D47A80278D442700AF3154 /* AppDelegate.swift */,
 				D6D47A82278D442700AF3154 /* SceneDelegate.swift */,
-				D6D47A84278D442700AF3154 /* ViewController.swift */,
 				D6D47A86278D442700AF3154 /* Main.storyboard */,
+				D6D47A96278D45E300AF3154 /* ImageCollectionViewCell.swift */,
+				D6D47A94278D45A200AF3154 /* BannerCollectionViewController.swift */,
 				D6D47A89278D442E00AF3154 /* Assets.xcassets */,
 				D6D47A8B278D442E00AF3154 /* LaunchScreen.storyboard */,
 				D6D47A8E278D442E00AF3154 /* Info.plist */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D47A85278D442700AF3154 /* ViewController.swift in Sources */,
+				D6D47A95278D45A200AF3154 /* BannerCollectionViewController.swift in Sources */,
 				D6D47A81278D442700AF3154 /* AppDelegate.swift in Sources */,
+				D6D47A97278D45E300AF3154 /* ImageCollectionViewCell.swift in Sources */,
 				D6D47A83278D442700AF3154 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
